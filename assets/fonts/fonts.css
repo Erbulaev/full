@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('proximanova_regular.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Proxima Nova Black';
+    src: url('proximanova_black.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Proxima Nova BlackIt';
+    src: url('proximanova_blackit.otf') format('opentype');
+    font-display: swap;
+    font-weight: 900;
+    
+}
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('proximanova_bold.otf') format('opentype');
+    font-display: swap;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url('proximanova_light.otf') format('opentype');
+    font-display: swap;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Proxima Nova ExtraBold';
+    src: url('proximanova_extrabold.otf') format('opentype');
+    font-display: swap;
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Proxima Nova BoldIt';
+    src: url('proximanova_boldit.otf') format('opentype');
+    font-display: swap;
+    font-style: italic;
+    font-weight: 700;
+}

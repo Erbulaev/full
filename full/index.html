@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="logo">
+            <a href="">
+                <img src="img/LOGO.png" alt="" width="157" height="50">
+            </a>
+        </div>
+        <div class="nav">
+            <nav>
+                <a href="">Наши услуги</a>
+                <a href="">Тарифы</a>
+                <a href="">Отзывы</a>
+                <a href="">О нас</a>
+                <a href="catalog.html">Каталог</a>
+            </nav>
+        </div>
+        <div class="soc">
+            <a href="">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12ZM3.00683 12C3.00683 16.9668 7.03321 20.9932 12 20.9932C16.9668 20.9932 20.9932 16.9668 20.9932 12C20.9932 7.03321 16.9668 3.00683 12 3.00683C7.03321 3.00683 3.00683 7.03321 3.00683 12Z"
+                          fill="#343A46"/>
+                    <path d="M12 5C11.4477 5 11 5.44771 11 6V12.4667C11 12.4667 11 12.7274 11.1267 12.9235C11.2115 13.0898 11.3437 13.2343 11.5174 13.3346L16.1372 16.0019C16.6155 16.278 17.2271 16.1141 17.5032 15.6358C17.7793 15.1575 17.6155 14.5459 17.1372 14.2698L13 11.8812V6C13 5.44772 12.5523 5 12 5Z"
+                          fill="#343A46"/>
+                </svg>
+                <p>Пн-Сб 9.00-19.00</p>
+            </a>
+            <a href="">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_116_684)">
+                        <path d="M6.14553 0.86701C7.02228 2.07601 8.06778 3.63751 9.27678 5.54476C9.58128 6.06076 9.53478 6.67876 9.14103 7.40551C8.99103 7.71001 8.61153 8.40376 8.00703 9.49576C8.67228 10.4333 9.68553 11.586 11.049 12.9458C12.4125 14.3055 13.5473 15.3225 14.4525 15.9878C15.54 15.3503 16.2383 14.961 16.5435 14.8065C16.9373 14.5958 17.3168 14.4878 17.6775 14.4878C17.9498 14.4878 18.1935 14.5485 18.4043 14.6708C19.7963 15.519 21.3713 16.5645 23.1248 17.802C23.4578 18.0458 23.6453 18.3788 23.6918 18.8003C23.739 19.227 23.607 19.677 23.3078 20.1645C23.1578 20.3753 22.914 20.685 22.581 21.0975C22.248 21.5055 21.7463 22.0208 21.081 22.6395C20.4158 23.2583 19.8713 23.5725 19.4453 23.5725H19.398C16.1963 23.4458 12.2498 21.0458 7.57653 16.3725C2.89878 11.694 0.498026 7.75201 0.376526 4.54576C0.376526 4.12351 0.685526 3.57076 1.30953 2.88676C1.92828 2.20726 2.43903 1.71451 2.82828 1.41001C3.22203 1.11001 3.55503 0.86626 3.82653 0.68326C4.15953 0.43951 4.53903 0.32251 4.96128 0.32251C5.48178 0.32251 5.87028 0.50551 6.14703 0.86626L6.14553 0.86701ZM4.64553 1.81876C4.00803 2.27326 3.41253 2.78401 2.85003 3.34201C2.29203 3.90451 1.96428 4.31701 1.87503 4.58851C1.99728 7.40551 4.24203 10.9913 8.61603 15.351C12.99 19.7108 16.5848 21.9653 19.3973 22.1153C19.641 22.026 20.0393 21.693 20.6018 21.117C21.1643 20.541 21.6705 19.9358 22.1205 19.3028C22.2098 19.1805 22.2428 19.0778 22.2098 18.984C20.3955 17.7135 18.8813 16.701 17.6678 15.942C17.5455 15.942 17.3955 15.9893 17.2133 16.0778C16.941 16.2278 16.2615 16.6073 15.1695 17.2118L14.3963 17.6663L13.623 17.1645C12.6248 16.4708 11.415 15.3923 9.99003 13.9395C8.56953 12.519 7.51053 11.3055 6.81153 10.3065L6.26778 9.57976L6.72228 8.76376C7.32678 7.67626 7.70703 6.99151 7.85628 6.72001C7.94553 6.53701 7.99203 6.38701 7.99203 6.26551C6.91353 4.54501 5.91528 3.03076 5.00628 1.72801H4.95903C4.84203 1.72801 4.73403 1.76101 4.64478 1.81726L4.64553 1.81876Z"
+                              fill="#343A46"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_116_684">
+                            <rect width="24" height="24" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                <p>+7 (999) 999-99-99</p>
+            </a>
+        </div>
+    </div>
+</header>
+<div class="intro">
+    <div class="intro_main">
+        <div class="side_intro">
+            <div class="text_intro">
+                <h2>High Volume <span>Worldwide</span>
+                    Ecommerce Fulfillment</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lectus risus, finibus ornare
+                    vestibulum et, feugiat quis dui.</p>
+                <a href="">ОСТАВИТЬ ЗАЯВКУ</a>
+            </div>
+        </div>
+        <div class="side_intro">
+            <div class="globe-container">
+                <div class="globe">
+                    <div class="globe-sphere"></div>
+                    <div class="globe-outer-shadow"></div>
+                    <div class="globe-worldmap">
+                        <div class="globe-worldmap-back"></div>
+                        <div class="globe-worldmap-front"></div>
+                    </div>
+                    <div class="globe-inner-shadow"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="opp">
+        <h2><span>НИЗКАЯ</span>&nbsp; СТОИМОСТЬ,&nbsp;<span>БЫСТРАЯ</span>&nbsp;ДОСТАВКА</h2>
+        <div class="opp_cont">
+            <div class="opp_card">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_116_40)">
+                        <g clip-path="url(#clip1_116_40)">
+                            <g clip-path="url(#clip2_116_40)">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M29.5088 59.5082C13.2384 59.5082 0 46.271 0 29.9994C0 13.729 13.2384 0.491821 29.5088 0.491821C45.7792 0.491821 59.0177 13.729 59.0177 29.9994C59.0177 46.271 45.7792 59.5082 29.5088 59.5082ZM52.9056 43.5317C55.0278 39.8836 56.3138 35.6982 56.5168 31.2302H45.4399C45.312 35.5348 44.5522 39.6672 43.1825 43.5243H52.8699C52.8822 43.5243 52.8933 43.5317 52.9056 43.5317ZM30.7384 28.7698H42.9771C42.8382 24.4431 42.0107 20.3082 40.5402 16.4757H30.7384V28.7698ZM51.2801 45.9833H42.1976C40.5414 49.7813 38.3123 53.2904 35.4831 56.363C41.9234 54.9037 47.4834 51.1314 51.2801 45.9833ZM30.7384 56.9877C30.9572 56.973 31.1773 56.9692 31.3961 56.9545C34.8438 53.8302 37.5413 50.1047 39.4926 45.9833H30.7384V56.9877ZM40.5402 43.5243C42.0107 39.6918 42.8382 35.5569 42.9771 31.2302H30.7384V43.5243H40.5402ZM28.2793 31.2302H16.0405C16.1794 35.5581 17.0057 39.6918 18.475 43.5243H28.2793V31.2302ZM28.2793 56.9877V45.9833H19.5225C21.4726 50.1047 24.169 53.8302 27.6141 56.9545C27.8342 56.9692 28.058 56.973 28.2793 56.9877ZM23.5407 56.3643C20.7533 53.3139 18.5315 49.79 16.8704 45.9833H7.73745C11.5354 51.1326 17.0979 54.9061 23.5407 56.3643ZM6.14767 43.5243H15.8806C14.4913 39.639 13.7118 35.493 13.579 31.2302H2.50087C2.70375 35.6982 3.98983 39.8836 6.11201 43.5317C6.12431 43.5317 6.13537 43.5243 6.14767 43.5243ZM6.11201 16.4683C3.98983 20.1164 2.70375 24.3018 2.50087 28.7698H13.5777C13.7056 24.4665 14.4655 20.3328 15.8364 16.4757H6.14767C6.13537 16.4757 6.12431 16.4683 6.11201 16.4683ZM7.73745 14.0167H16.8212C18.4786 10.2187 20.7091 6.70957 23.5395 3.63697C17.0967 5.0952 11.5354 8.86864 7.73745 14.0167ZM28.2793 3.01236C28.0629 3.02712 27.8428 3.0308 27.6264 3.04556C24.1775 6.16981 21.4787 9.89653 19.5274 14.0167H28.2793V3.01236ZM18.4786 16.4757C17.007 20.3082 16.1794 24.4431 16.0405 28.7698H28.2793V16.4757H18.4786ZM30.7384 3.01359V14.0167H39.4926C37.5413 9.8953 34.8425 6.16981 31.395 3.04679C31.1773 3.0308 30.956 3.02712 30.7384 3.01359ZM35.4831 3.6382C38.3123 6.7108 40.5427 10.2187 42.1988 14.0167H51.2801C47.4834 8.86987 41.9234 5.09766 35.4831 3.6382ZM52.8699 16.4757H43.1825C44.5533 20.3328 45.312 24.4653 45.4399 28.7698H56.5168C56.3138 24.3018 55.0278 20.1164 52.9044 16.4683C52.8921 16.4683 52.8822 16.4757 52.8699 16.4757Z" fill="#E51B23"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M29.5088 59.5082C13.2384 59.5082 0 46.271 0 29.9994C0 13.729 13.2384 0.491821 29.5088 0.491821C45.7792 0.491821 59.0177 13.729 59.0177 29.9994C59.0177 46.271 45.7792 59.5082 29.5088 59.5082ZM52.9056 43.5317C55.0278 39.8836 56.3138 35.6982 56.5168 31.2302H45.4399C45.312 35.5348 44.5522 39.6672 43.1825 43.5243H52.8699C52.8822 43.5243 52.8933 43.5317 52.9056 43.5317ZM30.7384 28.7698H42.9771C42.8382 24.4431 42.0107 20.3082 40.5402 16.4757H30.7384V28.7698ZM51.2801 45.9833H42.1976C40.5414 49.7813 38.3123 53.2904 35.4831 56.363C41.9234 54.9037 47.4834 51.1314 51.2801 45.9833ZM30.7384 56.9877C30.9572 56.973 31.1773 56.9692 31.3961 56.9545C34.8438 53.8302 37.5413 50.1047 39.4926 45.9833H30.7384V56.9877ZM40.5402 43.5243C42.0107 39.6918 42.8382 35.5569 42.9771 31.2302H30.7384V43.5243H40.5402ZM28.2793 31.2302H16.0405C16.1794 35.5581 17.0057 39.6918 18.475 43.5243H28.2793V31.2302ZM28.2793 56.9877V45.9833H19.5225C21.4726 50.1047 24.169 53.8302 27.6141 56.9545C27.8342 56.9692 28.058 56.973 28.2793 56.9877ZM23.5407 56.3643C20.7533 53.3139 18.5315 49.79 16.8704 45.9833H7.73745C11.5354 51.1326 17.0979 54.9061 23.5407 56.3643ZM6.14767 43.5243H15.8806C14.4913 39.639 13.7118 35.493 13.579 31.2302H2.50087C2.70375 35.6982 3.98983 39.8836 6.11201 43.5317C6.12431 43.5317 6.13537 43.5243 6.14767 43.5243ZM6.11201 16.4683C3.98983 20.1164 2.70375 24.3018 2.50087 28.7698H13.5777C13.7056 24.4665 14.4655 20.3328 15.8364 16.4757H6.14767C6.13537 16.4757 6.12431 16.4683 6.11201 16.4683ZM7.73745 14.0167H16.8212C18.4786 10.2187 20.7091 6.70957 23.5395 3.63697C17.0967 5.0952 11.5354 8.86864 7.73745 14.0167ZM28.2793 3.01236C28.0629 3.02712 27.8428 3.0308 27.6264 3.04556C24.1775 6.16981 21.4787 9.89653 19.5274 14.0167H28.2793V3.01236ZM18.4786 16.4757C17.007 20.3082 16.1794 24.4431 16.0405 28.7698H28.2793V16.4757H18.4786ZM30.7384 3.01359V14.0167H39.4926C37.5413 9.8953 34.8425 6.16981 31.395 3.04679C31.1773 3.0308 30.956 3.02712 30.7384 3.01359ZM35.4831 3.6382C38.3123 6.7108 40.5427 10.2187 42.1988 14.0167H51.2801C47.4834 8.86987 41.9234 5.09766 35.4831 3.6382ZM52.8699 16.4757H43.1825C44.5533 20.3328 45.312 24.4653 45.4399 28.7698H56.5168C56.3138 24.3018 55.0278 20.1164 52.9044 16.4683C52.8921 16.4683 52.8822 16.4757 52.8699 16.4757Z" fill="url(#paint0_linear_116_40)"/>
+                            </g>
+                        </g>
+                    </g>
+                    <defs>
+                        <linearGradient id="paint0_linear_116_40" x1="29.5088" y1="0.491821" x2="29.5088" y2="59.5082" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.1"/>
+                            <stop offset="1" stop-opacity="0"/>
+                        </linearGradient>
+                        <clipPath id="clip0_116_40">
+                            <rect width="60" height="60" fill="white"/>
+                        </clipPath>
+                        <clipPath id="clip1_116_40">
+                            <rect width="60" height="60" fill="white"/>
+                        </clipPath>
+                        <clipPath id="clip2_116_40">
+                            <rect width="60" height="59.0164" fill="white" transform="translate(0 0.491821)"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lectus risus, finibus ornare vestibulum et, feugiat quis dui.</p>
+            </div>
+            <div class="opp_card">
+                <svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_116_47)">
+                        <g clip-path="url(#clip1_116_47)">
+                            <g clip-path="url(#clip2_116_47)">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M33.3835 60L60.28 46V14L29.2455 0L0.279999 14V46L33.3835 60ZM34.5834 56.6697L57.88 44.5436V16.6021L34.5834 28.7282V56.6697ZM33.3305 26.6747L44.0501 21.095L16.2371 8.95302L4.65908 14.5491L33.3305 26.6747ZM2.68 16.3179V44.4092L32.1834 56.8867V28.7954L2.68 16.3179ZM19.0839 7.57707L46.7863 19.6708L56.1779 14.7824L29.2805 2.6487L19.0839 7.57707Z" fill="#E51B23"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M33.3835 60L60.28 46V14L29.2455 0L0.279999 14V46L33.3835 60ZM34.5834 56.6697L57.88 44.5436V16.6021L34.5834 28.7282V56.6697ZM33.3305 26.6747L44.0501 21.095L16.2371 8.95302L4.65908 14.5491L33.3305 26.6747ZM2.68 16.3179V44.4092L32.1834 56.8867V28.7954L2.68 16.3179ZM19.0839 7.57707L46.7863 19.6708L56.1779 14.7824L29.2805 2.6487L19.0839 7.57707Z" fill="url(#paint0_linear_116_47)"/>
+                            </g>
+                        </g>
+                    </g>
+                    <defs>
+                        <linearGradient id="paint0_linear_116_47" x1="30.28" y1="0" x2="30.28" y2="60" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.1"/>
+                            <stop offset="1" stop-opacity="0"/>
+                        </linearGradient>
+                        <clipPath id="clip0_116_47">
+                            <rect width="60" height="60" fill="white" transform="translate(0.279999)"/>
+                        </clipPath>
+                        <clipPath id="clip1_116_47">
+                            <rect width="60" height="60" fill="white" transform="translate(0.279999)"/>
+                        </clipPath>
+                        <clipPath id="clip2_116_47">
+                            <rect width="60" height="60" fill="white" transform="translate(0.279999)"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lectus risus, finibus ornare vestibulum et, feugiat quis dui.</p>
+            </div>
+            <div class="opp_card">
+                <svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_116_54)">
+                        <g clip-path="url(#clip1_116_54)">
+                            <g clip-path="url(#clip2_116_54)">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M30.75 60C14.2087 60 0.75 46.5413 0.75 30C0.75 25.0163 2.02875 20.3188 4.66 15.6375C4.9975 15.035 5.76 14.8212 6.3625 15.1587C6.965 15.4975 7.17875 16.26 6.84 16.8612C4.42375 21.16 3.25 25.4575 3.25 30C3.25 45.1625 15.5863 57.4987 30.75 57.4987C45.9137 57.4987 58.25 45.1625 58.25 30C58.25 15.2575 46.5812 3.2225 32 2.5625V8.75C32 9.44 31.4412 9.99875 30.75 9.99875C30.0588 9.99875 29.5 9.44 29.5 8.75V1.24875C29.5 0.55875 30.0588 0 30.75 0C47.2913 0 60.75 13.4575 60.75 30C60.75 46.5413 47.2913 60 30.75 60ZM34.5 30C34.5 32.0675 32.8175 33.75 30.75 33.75C28.6825 33.75 27 32.0675 27 30C27 29.7975 27.0288 29.6025 27.06 29.4088L16.4012 23.5975C15.795 23.265 15.5712 22.5062 15.9025 21.9012C16.2338 21.2937 16.995 21.0713 17.5975 21.4025L28.26 27.2163C28.9237 26.6225 29.7913 26.2488 30.75 26.2488C32.8175 26.2488 34.5 27.9325 34.5 30ZM29.5 30C29.5 30.6887 30.06 31.25 30.75 31.25C31.44 31.25 32 30.6887 32 30C32 29.31 31.44 28.75 30.75 28.75C30.06 28.75 29.5 29.31 29.5 30Z" fill="#E51B23"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M30.75 60C14.2087 60 0.75 46.5413 0.75 30C0.75 25.0163 2.02875 20.3188 4.66 15.6375C4.9975 15.035 5.76 14.8212 6.3625 15.1587C6.965 15.4975 7.17875 16.26 6.84 16.8612C4.42375 21.16 3.25 25.4575 3.25 30C3.25 45.1625 15.5863 57.4987 30.75 57.4987C45.9137 57.4987 58.25 45.1625 58.25 30C58.25 15.2575 46.5812 3.2225 32 2.5625V8.75C32 9.44 31.4412 9.99875 30.75 9.99875C30.0588 9.99875 29.5 9.44 29.5 8.75V1.24875C29.5 0.55875 30.0588 0 30.75 0C47.2913 0 60.75 13.4575 60.75 30C60.75 46.5413 47.2913 60 30.75 60ZM34.5 30C34.5 32.0675 32.8175 33.75 30.75 33.75C28.6825 33.75 27 32.0675 27 30C27 29.7975 27.0288 29.6025 27.06 29.4088L16.4012 23.5975C15.795 23.265 15.5712 22.5062 15.9025 21.9012C16.2338 21.2937 16.995 21.0713 17.5975 21.4025L28.26 27.2163C28.9237 26.6225 29.7913 26.2488 30.75 26.2488C32.8175 26.2488 34.5 27.9325 34.5 30ZM29.5 30C29.5 30.6887 30.06 31.25 30.75 31.25C31.44 31.25 32 30.6887 32 30C32 29.31 31.44 28.75 30.75 28.75C30.06 28.75 29.5 29.31 29.5 30Z" fill="url(#paint0_linear_116_54)"/>
+                            </g>
+                        </g>
+                    </g>
+                    <defs>
+                        <linearGradient id="paint0_linear_116_54" x1="30.75" y1="0" x2="30.75" y2="60" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.1"/>
+                            <stop offset="1" stop-opacity="0"/>
+                        </linearGradient>
+                        <clipPath id="clip0_116_54">
+                            <rect width="60" height="60" fill="white" transform="translate(0.75)"/>
+                        </clipPath>
+                        <clipPath id="clip1_116_54">
+                            <rect width="60" height="60" fill="white" transform="translate(0.75)"/>
+                        </clipPath>
+                        <clipPath id="clip2_116_54">
+                            <rect width="60" height="60" fill="white" transform="translate(0.75)"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lectus risus, finibus ornare vestibulum et, feugiat quis dui.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="location">
+    <div class="locations">
+        <div class="head_loc">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <div class="btns_loc">
+                <div class="btn_loc">
+                    <a href="">Lorem ipsum</a>
+                </div>
+                <div class="btn_loc">
+                    <a href="">Lorem ipsum</a>
+                </div>
+                <div class="btn_loc">
+                    <a href="">Lorem ipsum</a>
+                </div>
+                <div class="btn_loc">
+                    <a href="">Lorem ipsum</a>
+                </div>
+                <div class="btn_loc">
+                    <a href="">Lorem ipsum</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_loc">
+            <div class="side_location">
+                <img src="img/russia.svg" alt="russia" width="795" height="493" style="pointer-events: none" class="map_svg">
+            </div>
+            <div class="side_location">
+                <div class="text_side_loc">
+                    <h2>LOREM IPSUM</h2>
+                    <p>LOREM IPSUM</p>
+                    <p>Lorem ipsum dolor set amet</p>
+                    <div class="dotted_loc">
+                        <div class="cont_dott">
+                            <div class="dott">
+                                <img src="img/dott.svg" alt="dott" width="20" height="21">
+                                <p>Lorem ipsum</p>
+                            </div>
+                            <div class="dott">
+                                <img src="img/dott.svg" alt="dott" width="20" height="21">
+                                <p>Lorem ipsum</p>
+                            </div>
+                        </div>
+                        <div class="cont_dott">
+                            <div class="dott">
+                                <img src="img/dott.svg" alt="dott" width="20" height="21">
+                                <p>Lorem ipsum</p>
+                            </div>
+                            <div class="dott">
+                                <img src="img/dott.svg" alt="dott" width="20" height="21">
+                                <p>Lorem ipsum</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="tabs">
+                        <img src="img/dhl.svg" alt="dhl" width="116" height="40">
+                        <img src="img/sdek.png" alt="sdek" width="112" height="24">
+                    </div>
+                    <div class="btn_side_loc">
+                        <a href="">ОСТАВИТЬ ЗАЯВКУ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="slider">
+    <div class="head_slider">
+        <h2>Lorem ipsum!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    </div>
+
+    <div class="conveer_block">
+        <div class="items-wrap">
+            <div class="items marquee">
+                <div class="item">
+                    <div class="conveer_img">
+                        <img src="img/pick.png" alt="pick" width="200" height="200">
+                    </div>
+                    <p>Погрузка</p>
+                </div>
+                <div class="item">
+                    <div class="conveer_img">
+                        <img src="img/ship.png" alt="ship" width="200" height="200">
+                    </div>
+                    <p>Доставка</p>
+                </div>
+                <div class="item">
+                    <div class="conveer_img">
+                        <img src="img/pack.png" alt="pack" width="200" height="200">
+                    </div>
+                    <p>Сборка</p>
+                </div>
+                <div class="item">
+                    <div class="conveer_img">
+                        <img src="img/return.png" alt="return" width="200" height="200">
+                    </div>
+                    <p>Возврат</p>
+                </div>
+                <div class="item">
+                    <div class="conveer_img">
+                        <img src="img/store.png" alt="store" width="200" height="200">
+                    </div>
+                    <p>Хранение</p>
+                </div>
+
+            </div>
+            <div aria-hidden="true" class="items marquee">
+                <div class="item">
+                    <div class="conveer_img">
+                        <img src="img/pick.png" alt="pick" width="200" height="200">
+                    </div>
+                    <p>Погрузка</p>
+                </div>
+                <div class="item">
+                    <div class="conveer_img">
+                        <img src="img/ship.png" alt="ship" width="200" height="200">
+                    </div>
+                    <p>Доставка</p>
+                </div>
+                <div class="item">
+                    <div class="conveer_img">
+                        <img src="img/pack.png" alt="pack" width="200" height="200">
+                    </div>
+                    <p>Сборка</p>
+                </div>
+                <div class="item">
+                    <div class="conveer_img">
+                        <img src="img/return.png" alt="return" width="200" height="200">
+                    </div>
+                    <p>Возврат</p>
+                </div>
+                <div class="item">
+                    <div class="conveer_img">
+                        <img src="img/store.png" alt="store" width="200" height="200">
+                    </div>
+                    <p>Хранение</p>
+                </div>
+            </div>
+        </div>
+        <div class="conveer_block_anim">
+            <div class="conveer">
+                <video src="img/5eaac2620e0334334f8c4360_conveer%203-transcode.webm" autoplay loop muted>
+                    <source src="img/5eaac2620e0334334f8c4360_conveer%203-transcode.webm" data-wf-ignore="true">
+                </video>
+            </div>
+            <div class="conveer">
+                <video src="img/5eaac2620e0334334f8c4360_conveer%203-transcode.webm" autoplay loop muted>
+                    <source src="img/5eaac2620e0334334f8c4360_conveer%203-transcode.webm" data-wf-ignore="true">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="manage">
+    <div class="manage_sides">
+        <div class="side_manage">
+            <div class="head_manage">
+                <h2>Manage Shipments & Inventory</h2>
+                <p>With 24/7 access to our cloud-based order management platform, your
+                    team will be a click away from the information that matters:</p>
+            </div>
+            <div class="items_manage">
+                <div class="item_manage">
+                    <img src="img/monitor.svg" alt="monitor" width="50" height="44">
+                    <p>Monitor your inventory in real time</p>
+                </div>
+                <div class="item_manage">
+                    <img src="img/view.svg" alt="view" width="50" height="44">
+                    <p>View and verify your fulfillment & postage fees</p>
+                </div>
+                <div class="item_manage">
+                    <img src="img/validate.svg" alt="validate" width="50" height="44">
+                    <p>Validate addresses to reduce returns and chargebacks</p>
+                </div>
+                <div class="item_manage">
+                    <img src="img/predict.svg" alt="predict" width="50" height="44">
+                    <p>Predict product depletion and re-order dates</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="side_manage">
+            <img src="img/mokup.png" alt="mokup" width="729" height="615" class="mokup">
+        </div>
+    </div>
+</div>
+<div class="wrapper">
+    <h2>Статьи</h2>
+    <div class="articles">
+        <div class="article">
+            <div class="head_article">
+                <img src="img/article1.png" alt="article" width="640" height="220">
+            </div>
+            <div class="text_article">
+                <p>Our Fulfillment Company is a Proud Sponsor of Advocates of Love Charity</p>
+                <p>Advocates of Love is the only children’s home to help orphan and vulnerable children in the
+                    Samana Province, Dominican Republic. Founded by Mike Clark in 2013, this charity has provided
+                    care and education for children in one of the most poverty-stricken areas.</p>
+            </div>
+            <div class="bottom_article">
+                <a href="">Подробнее</a>
+                <img src="img/logoar.png" alt="logoar" width="105" height="60">
+            </div>
+        </div>
+        <div class="article">
+            <div class="head_article">
+                <img src="img/article2.png" alt="article" width="640" height="220">
+            </div>
+            <div class="text_article">
+                <p>Our Fulfillment Company is a Proud Sponsor of Companions for Heroes</p>
+                <p>Companions for Heroes (C4H) provides companion dogs, and on a case-by-case basis, service
+                    dogs, obtained from shelters, rescues and humane societies, who might otherwise be
+                    euthanized, free of charge to active duty military personnel, military veterans, first responders...</p>
+
+            </div>
+            <div class="bottom_article">
+                <a href="">Подробнее</a>
+                <img src="img/logoar2.png" alt="logoar" width="105" height="60">
+            </div>
+        </div>
+    </div>
+    <div class="cont_form">
+        <div class="side_cont_form">
+            <form action="">
+                <h3>Закажите консультацию <span>прямо сейчас</span></h3>
+                <div class="inputs">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Телефон">
+                </div>
+                <div class="btn_form">
+                    <a href="">ОСТАВИТЬ ЗАЯВКУ</a>
+                    <p>Нажимая на кнопку, вы соглашаетесь с <span>политикой конфиденциальности</span> </p>
+                </div>
+            </form>
+        </div>
+        <div class="side_cont_form">
+            <img src="img/form.png" alt="form" width="604" height="604">
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        <div class="side_footer">
+            <div class="logo">
+                <img src="img/LOGO.png" alt="logo" width="157" height="50">
+            </div>
+            <div class="etc">
+                <p>Lorem ipsum dol ant®</p>
+                <p>©2023 Fulfillment.com</p>
+            </div>
+        </div>
+        <div class="side_footer">
+            <div class="foot_contact">
+                <p>Contact us</p>
+                <a href=""><svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_120_1281)">
+                            <path d="M4.86519 0.686434C5.55928 1.64356 6.38697 2.87975 7.3441 4.38965C7.58516 4.79815 7.54835 5.2874 7.23663 5.86275C7.11788 6.10381 6.81744 6.65303 6.33888 7.51753C6.86553 8.25972 7.66769 9.17231 8.74713 10.2488C9.82657 11.3252 10.7249 12.1304 11.4416 12.657C12.3025 12.1523 12.8553 11.8442 13.0969 11.7219C13.4087 11.555 13.7091 11.4695 13.9947 11.4695C14.2102 11.4695 14.4032 11.5176 14.57 11.6144C15.672 12.2859 16.9189 13.1136 18.3071 14.0933C18.5707 14.2863 18.7192 14.5499 18.756 14.8836C18.7934 15.2214 18.6889 15.5777 18.452 15.9636C18.3332 16.1305 18.1403 16.3757 17.8766 16.7022C17.613 17.0252 17.2158 17.4332 16.6891 17.923C16.1625 18.4128 15.7314 18.6616 15.3942 18.6616H15.3568C12.822 18.5613 9.69772 16.6613 5.99807 12.9616C2.29485 9.25781 0.394253 6.13706 0.298065 3.59878C0.298065 3.2645 0.54269 2.8269 1.03669 2.2854C1.52653 1.74746 1.93088 1.35737 2.23903 1.11631C2.55075 0.878809 2.81438 0.68584 3.02932 0.540965C3.29294 0.347996 3.59338 0.255371 3.92766 0.255371C4.33972 0.255371 4.64728 0.400246 4.86638 0.68584L4.86519 0.686434ZM3.67769 1.4399C3.173 1.79971 2.70157 2.20406 2.25625 2.64581C1.8145 3.09112 1.55503 3.41768 1.48438 3.63262C1.58116 5.86275 3.35825 8.70146 6.821 12.1529C10.2838 15.6044 13.1296 17.3892 15.3562 17.508C15.5491 17.4373 15.8644 17.1737 16.3097 16.7177C16.755 16.2617 17.1558 15.7825 17.5121 15.2814C17.5827 15.1846 17.6088 15.1033 17.5827 15.0291C16.1464 14.0232 14.9477 13.2217 13.987 12.6208C13.8902 12.6208 13.7714 12.6582 13.6272 12.7283C13.4116 12.847 12.8737 13.1475 12.0092 13.626L11.397 13.9858L10.7849 13.5886C9.9946 13.0394 9.03688 12.1856 7.90875 11.0355C6.78419 9.91093 5.94582 8.95025 5.39244 8.15937L4.96197 7.58403L5.32178 6.93803C5.80035 6.07709 6.10138 5.535 6.21953 5.32006C6.29019 5.17518 6.327 5.05643 6.327 4.96025C5.47319 3.59818 4.68291 2.3994 3.96328 1.36806H3.92588C3.83325 1.36806 3.74775 1.39418 3.6771 1.43871L3.67769 1.4399Z" fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_120_1281">
+                                <rect width="19" height="19" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <p>7 (999) 999-99-99</p>
+                </a>
+                <a href="">
+                    <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.3725 0.5C17.2866 0.5 18.06 1.27344 18.06 2.1875V12.3125C18.06 13.2617 17.2866 14 16.3725 14H1.7475C0.798279 14 0.0599976 13.2617 0.0599976 12.3125V2.1875C0.0599976 1.27344 0.798279 0.5 1.7475 0.5H16.3725ZM16.3725 2.1875H1.7475V3.62891C2.52094 4.29688 3.78656 5.28125 6.45844 7.39062C7.05609 7.84766 8.21625 8.97266 9.06 8.9375C9.86859 8.97266 11.0287 7.84766 11.6264 7.39062C14.2983 5.28125 15.5639 4.29688 16.3725 3.62891V2.1875ZM1.7475 12.3125H16.3725V5.80859C15.5639 6.44141 14.4037 7.35547 12.6811 8.72656C11.8725 9.32422 10.5366 10.6602 9.06 10.625C7.54828 10.6602 6.17719 9.32422 5.40375 8.72656C3.68109 7.35547 2.52094 6.44141 1.7475 5.80859V12.3125Z" fill="white"/>
+                    </svg>
+                    <p>info@fulfillment.com</p>
+                </a>
+
+            </div>
+            <div class="foot_soc">
+                <a href=""><svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.2167 4.59375C16.2167 4.76953 16.2167 4.91016 16.2167 5.08594C16.2167 9.97266 12.5253 15.5625 5.74016 15.5625C3.63078 15.5625 1.69719 14.9648 0.0800018 13.9102C0.361252 13.9453 0.642502 13.9805 0.958908 13.9805C2.68156 13.9805 4.2636 13.3828 5.52922 12.3984C3.91203 12.3633 2.54094 11.3086 2.08391 9.83203C2.33 9.86719 2.54094 9.90234 2.78703 9.90234C3.10344 9.90234 3.455 9.83203 3.73625 9.76172C2.04875 9.41016 0.783127 7.93359 0.783127 6.14062V6.10547C1.27531 6.38672 1.87297 6.52734 2.47063 6.5625C1.4511 5.89453 0.818283 4.76953 0.818283 3.50391C0.818283 2.80078 0.994064 2.16797 1.31047 1.64062C3.1386 3.85547 5.88078 5.33203 8.93938 5.50781C8.86906 5.22656 8.83391 4.94531 8.83391 4.66406C8.83391 2.625 10.4863 0.972656 12.5253 0.972656C13.58 0.972656 14.5292 1.39453 15.2323 2.13281C16.0409 1.95703 16.8495 1.64062 17.5527 1.21875C17.2714 2.09766 16.7089 2.80078 15.9355 3.25781C16.6738 3.1875 17.412 2.97656 18.0448 2.69531C17.5527 3.43359 16.9198 4.06641 16.2167 4.59375Z" fill="white"/>
+                    </svg>
+                </a>
+                <a href=""><svg width="10" height="19" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.22859 10.375H6.59187V18.25H3.07625V10.375H0.193436V7.14062H3.07625V4.64453C3.07625 1.83203 4.76375 0.25 7.33015 0.25C8.56062 0.25 9.8614 0.496094 9.8614 0.496094V3.27344H8.42C7.01375 3.27344 6.59187 4.11719 6.59187 5.03125V7.14062H9.72078L9.22859 10.375Z" fill="white"/>
+                    </svg>
+                </a>
+                <a href=""><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.065 4.20703C10.2798 4.20703 12.108 6.03516 12.108 8.25C12.108 10.5 10.2798 12.293 8.065 12.293C5.815 12.293 4.02203 10.5 4.02203 8.25C4.02203 6.03516 5.815 4.20703 8.065 4.20703ZM8.065 10.8867C9.5064 10.8867 10.6666 9.72656 10.6666 8.25C10.6666 6.80859 9.5064 5.64844 8.065 5.64844C6.58844 5.64844 5.42828 6.80859 5.42828 8.25C5.42828 9.72656 6.62359 10.8867 8.065 10.8867ZM13.1978 4.06641C13.1978 4.59375 12.7759 5.01562 12.2486 5.01562C11.7212 5.01562 11.2994 4.59375 11.2994 4.06641C11.2994 3.53906 11.7212 3.11719 12.2486 3.11719C12.7759 3.11719 13.1978 3.53906 13.1978 4.06641ZM15.8697 5.01562C15.94 6.31641 15.94 10.2188 15.8697 11.5195C15.7994 12.7852 15.5181 13.875 14.6041 14.8242C13.69 15.7383 12.565 16.0195 11.2994 16.0898C9.99859 16.1602 6.09625 16.1602 4.79547 16.0898C3.52984 16.0195 2.44 15.7383 1.49078 14.8242C0.576716 13.875 0.295466 12.7852 0.225154 11.5195C0.154841 10.2188 0.154841 6.31641 0.225154 5.01562C0.295466 3.75 0.576716 2.625 1.49078 1.71094C2.44 0.796875 3.52984 0.515625 4.79547 0.445312C6.09625 0.375 9.99859 0.375 11.2994 0.445312C12.565 0.515625 13.69 0.796875 14.6041 1.71094C15.5181 2.625 15.7994 3.75 15.8697 5.01562ZM14.1822 12.8906C14.6041 11.8711 14.4986 9.41016 14.4986 8.25C14.4986 7.125 14.6041 4.66406 14.1822 3.60938C13.9009 2.94141 13.3736 2.37891 12.7056 2.13281C11.6509 1.71094 9.19 1.81641 8.065 1.81641C6.90484 1.81641 4.4439 1.71094 3.42437 2.13281C2.72125 2.41406 2.1939 2.94141 1.91265 3.60938C1.49078 4.66406 1.59625 7.125 1.59625 8.25C1.59625 9.41016 1.49078 11.8711 1.91265 12.8906C2.1939 13.5938 2.72125 14.1211 3.42437 14.4023C4.4439 14.8242 6.90484 14.7188 8.065 14.7188C9.19 14.7188 11.6509 14.8242 12.7056 14.4023C13.3736 14.1211 13.9361 13.5938 14.1822 12.8906Z" fill="white"/>
+                    </svg>
+                </a>
+                <a href=""><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.70562 16H0.436092V5.48828H3.70562V16ZM2.05328 4.08203C1.03375 4.08203 0.189999 3.20312 0.189999 2.14844C0.189999 1.12891 1.03375 0.285156 2.05328 0.285156C3.10797 0.285156 3.95172 1.12891 3.95172 2.14844C3.95172 3.20312 3.10797 4.08203 2.05328 4.08203ZM15.9048 16H12.6705V10.9023C12.6705 9.67188 12.6353 8.125 10.9478 8.125C9.26031 8.125 9.01422 9.42578 9.01422 10.7969V16H5.74469V5.48828H8.87359V6.92969H8.90875C9.36578 6.12109 10.4205 5.24219 12.0025 5.24219C15.3072 5.24219 15.94 7.42188 15.94 10.2344V16H15.9048Z" fill="white"/>
+                    </svg>
+                </a>
+                <a href=""><svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.2408 2.64453C19.6627 4.12109 19.6627 7.28516 19.6627 7.28516C19.6627 7.28516 19.6627 10.4141 19.2408 11.9258C19.0298 12.7695 18.3619 13.4023 17.5533 13.6133C16.0416 14 10.065 14 10.065 14C10.065 14 4.05328 14 2.54156 13.6133C1.73296 13.4023 1.06499 12.7695 0.854057 11.9258C0.432182 10.4141 0.432182 7.28516 0.432182 7.28516C0.432182 7.28516 0.432182 4.12109 0.854057 2.64453C1.06499 1.80078 1.73296 1.13281 2.54156 0.921875C4.05328 0.5 10.065 0.5 10.065 0.5C10.065 0.5 16.0416 0.5 17.5533 0.921875C18.3619 1.13281 19.0298 1.80078 19.2408 2.64453ZM8.09624 10.1328L13.0884 7.28516L8.09624 4.4375V10.1328Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="foot_text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+        <div class="side_footer">
+            <div class="foot_nav">
+                <p>Navigation</p>
+                <a href="">Homepage</a>
+                <a href="">How It Works</a>
+                <a href="">Why Fulfillment.com?</a>
+                <a href="">Rainy Day Reading</a>
+                <a href="">Fulfillment.com News</a>
+                <a href="">Client Reviews</a>
+                <a href="">Client Login</a>
+                <a href="">Services</a>
+            </div>
+        </div>
+        <div class="side_footer">
+            <div class="foot_nav">
+                <a href="">About Us</a>
+                <a href="">FAQ’s</a>
+                <a href="">Education Vlog</a>
+                <a href="">Contact Us</a>
+                <a href="">Integration Guide</a>
+                <a href="">Referrals</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

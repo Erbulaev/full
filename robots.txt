@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Host: https://fulfilment.top/
+Sitemap: http://https://fulfilment.top//sitemap.xml
